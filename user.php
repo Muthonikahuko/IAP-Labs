@@ -22,7 +22,7 @@
 
       //static constructor
       public static function create(){
-          $instance = new self($first_name,$last_name,$city_name,$username,$password);
+          $instance = new self(" "," ", "", "", "");
           return $instance;
       }
 

@@ -7,7 +7,7 @@ $con = new DBConnector;
 if(isset($_POST['btn-login'])){
     $username = $_POST['username'];
     $password = $_POST['password'];
-    $instance = self ::create();
+    $instance = self;
     $instance->setPassword($password);
     $instance->setUsername($username);
 
